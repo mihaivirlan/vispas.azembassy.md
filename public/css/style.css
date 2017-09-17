@@ -1,0 +1,24 @@
+/* Carousel base class */
+.carousel-inner .item {
+    width: 100%; /* Your width */
+    height: 500px; /* Your height */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* This also makes sure it fills the whole div */
+}
+
+/* Menu active items */
+
+nav > ul > li.active {
+    text-decoration: underline;
+}
+
+.clas_titlu{
+    width: 325px;
+    border-radius: 20px;
+}
+
+.categorie_disain{
+    display:table-cell;
+    width: auto;
+}

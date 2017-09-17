@@ -1,0 +1,71 @@
+0. Testare versiune curenta si identificare probleme (5h)
+
+1. Implementare CMS (30h);
+
+2. Localizare si setari limba (5h);
+
+3. Ajustari frontend (16h)
+    - clasa activa meniu (done)
+    - imaginea de pe principala ajustata (done)
+    - identificare alte probleme
+    - feedback client
+    - modificari ulteriore dupa feedback
+
+4. Implementare func. rezervare camere (24h)
+    - concretizare cerinte
+    - logare cu API facebook/google
+    - creare tabele baza de date pt autentificare si rezervari
+    - notificari privind rezervarile
+
+5. Implementarea sectiunii contact (5h);
+
+6. Optimizare web mobile (24h);
+
+7. Securitate si testari finale (16h);
+
+8. Configurare server de productie (5h);
+
+MariaDB-10.1-x64
+
+
+TODO:
+- De rezolvat problemele cu migrarile (pending)
+
+- De mutat bootstrap pe folderul local (done)
+
+- Probleme Sliduri CMS (pending)
+
+- Am comentat unklink-ul de pe linia 381 din AdminCotroller;
+
+- In sectiunea conference din admin este functionabila doar la stergerea articolelor din admin si adaugare lor(editarea nu-i posibila);
+
+- In sectiunea trans.hotel_rooms din admin functioneaza adaugarea pozelor(nu-i stabilit un format pentru poze)
+  dar este o problema, pozele dispar de pe fundal apoi apar si editarea continutului nu functioneaza;
+
+- In sectiunea category_1 din admin functioneaza doar adaugarea unei foto noi(formatul nu-i prestabilit),
+  editarea continutului nu-i posibil;
+
+- In sectiunea category_2 din admin exact aceeasi problema ca in category_1;
+
+- In sectiunea trans.conference_halls din admin posibila doar schimbarea, adaugarea pozelor(editarea continutului nu-i poasibil),
+  stergerea articolelor si adaugarea lor e functionabila(editarea lor dupa adaugarea nu-i posibila),
+  o problema o constituie formatul pozelor care nu-i prestabilit;
+
+- Sectiunea about us nu-i functionabila din admin;
+
+- In sectiunea trans.news din admin e posibila adaugarea si stergerea noutatilor,
+  daugarea pozelor nu-i functionabila, editarea continutului e functionabil pentru limba rusa si engleza, pentru romana nu,
+  o problema o constituie returnarea noutatii fara descriere cind da-i click pe noutate;
+
+- In contact din pages este posibila editarea continutului pentru l.engleza si l.rusa, pentru romana nu,
+  editarea titlului nu-i posibila nici pentru o limba;
+
+- Adaugarea contactelor de pe pagina contact a saitului nu-i posibila cauza fiind routecontroller(nu avem controller pentru contacts);
+
+- Sectiunea trans.partners din admin e functionabila in totalitate;
+
+OBSERVATII:
+-- Categories: la creare nu sunt salvate campurile created_at, updared_at si imagies;
+-- Localizarea pe partea de front end este inca nefunctionala
+-- footerul pe partea de frontend trebuie legate de pagini
+-- gestionarea paginilor in cms trebuie refacuta sa includa toate campurile

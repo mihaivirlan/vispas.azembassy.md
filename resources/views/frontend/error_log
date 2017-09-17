@@ -1,0 +1,1 @@
+[09-Sep-2017 04:52:25 America/Chicago] PHP Fatal error:  Call to undefined function public_path() in /home/azembassy/vispas.azembassy.md/resources/views/frontend/room.blade.php on line 26
