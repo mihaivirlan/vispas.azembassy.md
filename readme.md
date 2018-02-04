@@ -7,3 +7,4 @@
 
 
 link for project: http://35.225.49.33/
+                  http://35.225.49.33/admin
